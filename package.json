@@ -3,7 +3,7 @@
   "main": "./lib/index",
   "theme": "syntax",
   "version": "1.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "most of Gedit' Themes for Atom",
   "keywords": [
     "syntax",
     "theme",
