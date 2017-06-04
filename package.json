@@ -2,7 +2,7 @@
   "name": "atom-gedit-syntax",
   "main": "./lib/index",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
