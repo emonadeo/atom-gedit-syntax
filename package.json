@@ -1,17 +1,61 @@
 {
   "name": "atom-gedit-syntax",
+  "main": "./lib/index",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
     "theme",
-		"gedit",
-		"grid"
+    "gedit",
+    "grid"
   ],
-  "repository": "https://github.com/atom/atom-gedit-syntax",
+  "repository": "https://github.com/Emonadeo/atom-gedit-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "configSchema": {
+    "grid": {
+      "title": "Grid Pattern",
+      "description": "Makes your Editor look like Graph paper",
+      "type": "boolean",
+      "default": true
+    },
+	"emphasis": {
+      "title": "Highlight Current Line",
+      "description": "Emphasises the line where your Cursor is",
+      "type": "boolean",
+      "default": false
+    },
+    "theme": {
+      "title": "Theme",
+      "description": "Only 'Classic' works at the moment",
+      "type": "string",
+      "default": "classic",
+      "enum": [
+        {
+          "value": "classic",
+          "description": "Classic"
+        },
+        {
+          "value": "cobalt",
+          "description": "Cobalt"
+        },
+        {
+          "value": "kate",
+          "description": "Kate"
+        },
+        {
+          "value": "oblivion",
+          "description": "Oblivion"
+        },
+        {
+          "value": "tango",
+          "description": "Tango"
+        }
+      ]
+    }
+  },
+  "dependencies": {}
 }
