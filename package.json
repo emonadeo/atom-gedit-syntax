@@ -30,7 +30,7 @@
     },
     "theme": {
       "title": "Theme",
-      "description": "Only 'Classic' works at the moment",
+      "description": "",
       "type": "string",
       "default": "classic",
       "enum": [
@@ -44,7 +44,7 @@
         },
         {
           "value": "kate",
-          "description": "Kate"
+          "description": "Kate (WIP)"
         },
         {
           "value": "oblivion",
@@ -52,7 +52,7 @@
         },
         {
           "value": "tango",
-          "description": "Tango"
+          "description": "Tango (WIP)"
         }
       ]
     }
