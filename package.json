@@ -2,7 +2,7 @@
   "name": "atom-gedit-syntax",
   "main": "./lib/index",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A short description of your syntax theme",
   "keywords": [
     "syntax",
@@ -22,7 +22,7 @@
       "type": "boolean",
       "default": true
     },
-	"emphasis": {
+    "emphasis": {
       "title": "Highlight Current Line",
       "description": "Emphasises the line where your Cursor is",
       "type": "boolean",
