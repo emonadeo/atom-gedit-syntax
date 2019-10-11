@@ -43,16 +43,8 @@
           "description": "Cobalt"
         },
         {
-          "value": "kate",
-          "description": "Kate (WIP)"
-        },
-        {
           "value": "oblivion",
           "description": "Oblivion"
-        },
-        {
-          "value": "tango",
-          "description": "Tango (WIP)"
         }
       ]
     }
