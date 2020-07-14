@@ -2,9 +2,9 @@
 @import "themed/syntax-variables-@{theme}";
 
 atom-text-editor {
-	background-color: white;
+	background-color: @syntax-background-color;
+	background: unset;
 	& when (@grid = 'true') {
-		background-color: transparent;
 		background:	linear-gradient(@syntax-background-pattern 1px, transparent 1px),
 		linear-gradient(90deg, @syntax-background-pattern 1px, @syntax-background-color 1px);
 		background-size: 10px 10px, 10px 10px;
@@ -295,10 +295,10 @@ atom-text-editor {
 
 // Mini editor
 
-atom-text-editor[mini] .scroll-view {
+/*atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
 
 atom-text-editor[mini] {
 	color: @syntax-text-color;
-}
+}*/
