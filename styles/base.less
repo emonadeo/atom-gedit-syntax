@@ -3,9 +3,8 @@
 
 atom-text-editor {
 	background-color: @syntax-background-color;
-	background: unset;
 	& when (@grid = 'true') {
-		background:	linear-gradient(@syntax-background-pattern 1px, transparent 1px),
+		background: linear-gradient(@syntax-background-pattern 1px, transparent 1px),
 		linear-gradient(90deg, @syntax-background-pattern 1px, @syntax-background-color 1px);
 		background-size: 10px 10px, 10px 10px;
 	}
@@ -58,6 +57,12 @@ atom-text-editor {
 
   .selection .region {
     background-color: @syntax-selection-color;
+  }
+
+	.bracket-matcher .region {
+    background-color: @syntax-bracket-matcher-color;
+    opacity: .7;
+    border-bottom: 0 none;
   }
 }
 
@@ -291,14 +296,3 @@ atom-text-editor {
   &.syntax--heading {
   }
 }
-
-
-// Mini editor
-
-/*atom-text-editor[mini] .scroll-view {
-  padding-left: 1px;
-}
-
-atom-text-editor[mini] {
-	color: @syntax-text-color;
-}*/

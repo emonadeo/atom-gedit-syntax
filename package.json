@@ -30,7 +30,7 @@
     },
     "theme": {
       "title": "Theme",
-      "description": "",
+      "description": "Changing themes may take a few seconds",
       "type": "string",
       "default": "classic",
       "enum": [
